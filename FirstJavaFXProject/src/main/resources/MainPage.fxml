@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+    
+    <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="456.0" layoutX="-10.0" layoutY="-56.0" stroke="BLACK" strokeType="INSIDE" width="619.0" />
+        <Text fill="#bc11bf" layoutX="176.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CHECKERS" textAlignment="CENTER" wrappingWidth="248.53668212890625">
+            <font>
+                <Font name="Arial Black" size="28.0" />
+            </font>
+        </Text>
+        <Button fx:id="tselect" layoutX="89.0" layoutY="129.0" mnemonicParsing="false" onAction="#butclicked" style="-fx-background-color: #800080; -fx-text-fill: #FFFFFF;" text="Select File" wrapText="true" />
+        <Button fx:id="bsave" layoutX="206.0" layoutY="129.0" mnemonicParsing="false" onAction="#saveFile" style="-fx-background-color: #800080; -fx-text-fill: #FFFFFF;" text="Save File" wrapText="true" />
+        <Button layoutX="314.0" layoutY="129.0" mnemonicParsing="false" style="-fx-background-color: #800080; -fx-text-fill: #FFFFFF;" text="Filter File" wrapText="true" />
+        <Button layoutX="439.0" layoutY="129.0" mnemonicParsing="false" style="-fx-background-color: #800080; -fx-text-fill: #FFFFFF;" text="Metrics" wrapText="true" onAction="#showMetrics" />
+        <Button fx:id="spellCheckButton" layoutX="206.0" layoutY="171.0" mnemonicParsing="false" onAction="#performSpellCheck" prefHeight="43.0" prefWidth="188.0" style="-fx-background-color: #800080; -fx-text-fill: #FFFFFF;" text="SPELL CHECK YOUR FILE" wrapText="true" />
+        <Button fx:id="exitButton" layoutX="536.0" layoutY="360.0" mnemonicParsing="false" onAction="#Exitbut" prefHeight="13.0" prefWidth="42.0" text="EXIT" wrapText="true" style="-fx-background-color: #FF0000; -fx-text-fill: #333333;" />
+        <Button fx:id="settingsButton" layoutX="536.0" layoutY="7.0" mnemonicParsing="false" onAction="#openSettings" text="Settings" style="-fx-background-color: #00FF00; -fx-text-fill: #333333;" />
+        <ScrollPane fx:id="textFlowScrollPane" fitToWidth="true" layoutX="108.0" layoutY="231.0" prefHeight="142.0" prefWidth="384.0">
+            <content>
+                <TextArea fx:id="textArea" styleClass="spelling-error" />
+            </content>
+        </ScrollPane>
+    </children>
+</AnchorPane>
+
+

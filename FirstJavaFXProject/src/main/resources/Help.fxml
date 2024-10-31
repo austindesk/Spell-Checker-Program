@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="522.0" prefWidth="756.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dadbdc" height="49.0" stroke="WHITE" strokeType="INSIDE" width="756.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b1b1b1" height="475.0" layoutX="-1.0" layoutY="47.0" stroke="WHITE" strokeType="INSIDE" width="184.0" />
+      <Text layoutX="32.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Settings">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Text>
+      <Button layoutX="42.0" layoutY="114.0" mnemonicParsing="false" text="User Dictionary" />
+      <Button layoutX="41.0" layoutY="384.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="98.0" text="Help" />
+      <Button layoutX="42.0" layoutY="296.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="98.0" text="About" />
+      <Button layoutX="42.0" layoutY="198.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="98.0" text="Contact" />
+      <Text fill="WHITE" layoutX="568.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Text>
+      <Text layoutX="220.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to Checkers Help Page" wrappingWidth="332.62298583984375">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Text>
+      <TextArea layoutX="184.0" layoutY="100.0" prefHeight="419.0" prefWidth="572.0" text="Overview:&#10;&#10;Checkers is a powerful tool  that is designed to help you catch and correct &#10;spelling errors quickly and efficiently. &#10;&#10;Getting Started:&#10;&#10;To get started with Checkers, simply follow these easy steps:&#10;1. Download and install Checkers on your preferred platform&#10;2.Open the application and select a file of your choosing.&#10;3.Click the  “Spell check your file” button to initiate the spell check process.&#10;&#10;TroubleShooting:&#10;Encountering issues? Here are some troubleshooting steps!&#10;1.Ensure the you are using the latest version of Checkers.&#10;2.Check your internet connection if the spell checker is not &#10;functioning properly.&#10;&#10;For further assistance, please reach out to our dedicated support team &#10;by clicking on the Contact page.&#10;&#10;Updates and Upgrades:&#10;&#10;We are constantly improving Checkers to provide you with the &#10;best experience.  Stay updated for our latest features!&#10;&#10;Conclusion!&#10;&#10;Thank you for choosing Checkers. We value your feedback and suggestions &#10;for making our application even better.&#10;&#10;Enjoy error-free writing with our spellchecker!&#10;&#10;&#10;&#10;&#10;&#10;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextArea>
+      <Button fx:id="leaveButton" layoutX="695.0" layoutY="8.0" mnemonicParsing="false" onAction="#leaveContact" text="Back" textFill="#e70e0e" />
+   </children>
+</AnchorPane>
+

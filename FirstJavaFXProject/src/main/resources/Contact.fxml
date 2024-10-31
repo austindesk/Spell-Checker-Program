@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dadbdc" height="49.0" stroke="WHITE" strokeType="INSIDE" width="600.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b1b1b1" height="354.0" layoutY="48.0" stroke="WHITE" strokeType="INSIDE" width="184.0" />
+      <Text layoutX="32.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Settings | Contact">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Text>
+      <Button layoutX="43.0" layoutY="106.0" mnemonicParsing="false" text="User Dictionary" />
+      <Button layoutX="43.0" layoutY="317.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="98.0" text="Help" />
+      <Button layoutX="43.0" layoutY="243.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="98.0" text="About" />
+      <Button layoutX="43.0" layoutY="174.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="98.0" text="Contact" />
+      <Text fill="WHITE" layoutX="568.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Text>
+      <Text layoutX="231.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact our support team!" textAlignment="CENTER" wrappingWidth="275.20001220703125">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Text>
+      <Text layoutX="218.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Abdelrahman Elbanna:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="408.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="aelbann@uwo.ca" wrappingWidth="106.234375">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="218.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ahmad Alashoury: ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="403.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="aalashou@uwo.ca" wrappingWidth="116.2587890625">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="408.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" text="aalqais2@uwo.ca" wrappingWidth="106.234375">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="408.0" layoutY="352.0" strokeType="OUTSIDE" strokeWidth="0.0" text="auniyal@uwo.ca" wrappingWidth="106.234375">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="403.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ghernan8@uwo.ca" wrappingWidth="116.2587890625">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="218.0" layoutY="352.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Aditya Uniyal:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="218.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gabriel Hernandez:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="218.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Aws Alqaisi:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Button fx:id="leaveButton" layoutX="542.0" layoutY="8.0" mnemonicParsing="false" onAction="#leaveContact" text="Back" textFill="#e70e0e" />
+   </children>
+</AnchorPane>
+

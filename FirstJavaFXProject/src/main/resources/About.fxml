@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dadbdc" height="49.0" stroke="WHITE" strokeType="INSIDE" width="600.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b1b1b1" height="354.0" layoutY="48.0" stroke="WHITE" strokeType="INSIDE" width="184.0" />
+      <Text layoutX="32.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Settings | About">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Text>
+      <Button layoutX="43.0" layoutY="106.0" mnemonicParsing="false" text="User Dictionary" />
+      <Button layoutX="43.0" layoutY="317.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="98.0" text="Help" />
+      <Button layoutX="43.0" layoutY="243.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="98.0" text="About" />
+      <Button layoutX="43.0" layoutY="174.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="98.0" text="Contact" />
+      <Text fill="WHITE" layoutX="568.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Text>
+      <Text layoutX="278.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="About this application">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Text>
+      <TextArea layoutX="182.0" layoutY="113.0" prefHeight="286.0" prefWidth="418.0" text="This desktop application spell-checks text documents, &#10;once the user opens the text document, the application&#10;will check the text document word by word, by looking&#10;it up against a dictionary of known words, once it finds&#10;a mistake it will provide a variety of corrected options&#10;whether it be Manual corrections or a list of suggested&#10;corrections once the user is done they will have a &#10;document free of spelling mistakes.">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextArea>
+      <Button layoutX="542.0" layoutY="8.0" mnemonicParsing="false" text="Leave" textFill="#df1010" />
+       <Button fx:id="leaveButton" layoutX="542.0" layoutY="8.0" mnemonicParsing="false" onAction="#leaveAbout" text="Back" textFill="#e70e0e" />
+      
+   </children>
+</AnchorPane>
+
